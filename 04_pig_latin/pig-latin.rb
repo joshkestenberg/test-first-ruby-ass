@@ -21,13 +21,13 @@ def translate(string)
       almost_final_word = word.join("")
       almost_final_word += first
       final_word = add_ay(almost_final_word)
-    elsif start_with_2consonant
-      first = word[0]
-      second = word[1]
-      word.shift
-      almost_final_word = word.join("")
-      almost_final_word += (first + second)
-      final_word = add_ay(almost_final_word)
+    # elsif start_with_2consonant
+    #   first = word[0]
+    #   second = word[1]
+    #   word.shift
+    #   almost_final_word = word.join("")
+    #   almost_final_word += (first + second)
+    #   final_word = add_ay(almost_final_word)
     end
     puts final_word
   end
